@@ -5024,6 +5024,7 @@ GameObject:
   - component: {fileID: 893106701}
   - component: {fileID: 893106703}
   - component: {fileID: 893106702}
+  - component: {fileID: 893106704}
   m_Layer: 5
   m_Name: Panel_Jugadores
   m_TagString: Untagged
@@ -5103,6 +5104,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893106700}
   m_CullTransparentMesh: 1
+--- !u!114 &893106704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893106700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b6990161c565548876ceca3f5a1a83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jugadoresUI:
+  - inputNombre: {fileID: 1013870097}
+    dropdownColor: {fileID: 1351561126}
+  - inputNombre: {fileID: 1425694125}
+    dropdownColor: {fileID: 1990960876}
+  - inputNombre: {fileID: 529196022}
+    dropdownColor: {fileID: 358012751}
+  - inputNombre: {fileID: 1236964764}
+    dropdownColor: {fileID: 107541025}
+  - inputNombre: {fileID: 222933733}
+    dropdownColor: {fileID: 1003645701}
+  - inputNombre: {fileID: 361924263}
+    dropdownColor: {fileID: 765673354}
+  botonComenzar: {fileID: 1418897240}
 --- !u!1 &896708232
 GameObject:
   m_ObjectHideFlags: 0
@@ -7764,7 +7791,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1418897241}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 893106704}
+        m_TargetAssemblyTypeName: ConfiguradorJugadores, Assembly-CSharp
+        m_MethodName: AlPresionarComenzar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1418897241
 MonoBehaviour:
   m_ObjectHideFlags: 0
