@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\AsignadorBotonesJugadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\AsignadorBotonesJugadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\ConfiguradorJugadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\ConfiguradorJugadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "AsignadorBotonesJugadores.cs",
+              "DocumentMoniker": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\AsignadorBotonesJugadores.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\AsignadorBotonesJugadores.cs",
+              "ToolTip": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\AsignadorBotonesJugadores.cs",
+              "RelativeToolTip": "Assets\\Script\\AsignadorBotonesJugadores.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T21:32:53.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "JugadoresConfigurados.cs",
               "DocumentMoniker": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\JugadoresConfigurados.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\JugadoresConfigurados.cs",
@@ -34,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ConfiguradorJugadores.cs",
               "DocumentMoniker": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\ConfiguradorJugadores.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ConfiguradorJugadores.cs",
@@ -42,8 +59,7 @@
               "RelativeToolTip": "Assets\\Script\\ConfiguradorJugadores.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T20:51:42.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T20:51:42.059Z"
             }
           ]
         }
