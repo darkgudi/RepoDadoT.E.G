@@ -19,7 +19,7 @@ public class ConfiguradorJugadores : MonoBehaviour
     public List<JugadorUI> jugadoresUI;
     public Button botonComenzar;
 
-    private List<string> coloresDisponibles = new List<string> { "Negro", "Rojo", "Verde", "Azul", "Amarillo", "Rosa" };
+    private List<string> coloresDisponibles = new List<string> { "Negro", "Rojo", "Verde", "Azul", "Amarillo", "Blanco" };
     private Dictionary<string, Color> mapaColores = new Dictionary<string, Color>
     {
         {"Negro", Color.black},
@@ -27,7 +27,7 @@ public class ConfiguradorJugadores : MonoBehaviour
         {"Verde", Color.green},
         {"Azul", Color.blue},
         {"Amarillo", Color.yellow},
-        {"Rosa", new Color(1f, 0.5f, 0.8f) }
+        {"Blanco", new Color(1f, 0.9f, 0.8f) }
     };
 
     void Start()

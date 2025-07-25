@@ -32,7 +32,16 @@ public class AsignadorBotonesJugadores : MonoBehaviour
                 botonesAtacante[i].GetComponentInChildren<TMP_Text>().text = nombres[i];
                 botonesAtacante[i].GetComponent<Button>().onClick.AddListener(() =>
                 {
-                    panelAtacante.color = colores[index];
+                    // Dentro del AddListener para atacante
+                    {
+                        Color colorPanel = colores[index];
+                        if (colorPanel == Color.black)
+                        {
+                            colorPanel = new Color(0.8f, 0.8f, 0.8f); // Gris claro
+                        }
+                        panelAtacante.color = colorPanel;
+                    }
+
                 });
 
                 // Activar y configurar botón defensor
@@ -40,7 +49,15 @@ public class AsignadorBotonesJugadores : MonoBehaviour
                 botonesDefensor[i].GetComponentInChildren<TMP_Text>().text = nombres[i];
                 botonesDefensor[i].GetComponent<Button>().onClick.AddListener(() =>
                 {
-                    panelDefensor.color = colores[index];
+                    {
+                        Color colorPanel = colores[index];
+                        if (colorPanel == Color.black)
+                        {
+                            colorPanel = new Color(0.8f, 0.8f, 0.8f);
+                        }
+                        panelDefensor.color = colorPanel;
+                    }
+
                 });
             }
             else

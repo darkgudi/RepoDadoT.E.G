@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\AsignadorBotonesJugadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\AsignadorBotonesJugadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\VolverAMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\VolverAMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\VolverEscena-Menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\VolverEscena-Menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\VolverEscena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\VolverEscena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\SalirAplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\SalirAplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\ConfiguradorJugadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\ConfiguradorJugadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\AsignadorBotonesJugadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\AsignadorBotonesJugadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\JugadoresConfigurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,19 +43,65 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "VolverAMenu.cs",
+              "DocumentMoniker": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\VolverAMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\VolverAMenu.cs",
+              "ToolTip": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\VolverAMenu.cs",
+              "RelativeToolTip": "Assets\\Script\\VolverAMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T23:33:48.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VolverEscena-Menu.cs",
+              "DocumentMoniker": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\VolverEscena-Menu.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\VolverEscena-Menu.cs",
+              "ToolTip": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\VolverEscena-Menu.cs",
+              "RelativeToolTip": "Assets\\Script\\VolverEscena-Menu.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T23:30:45.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VolverEscena.cs",
+              "DocumentMoniker": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\VolverEscena.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\VolverEscena.cs",
+              "ToolTip": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\VolverEscena.cs",
+              "RelativeToolTip": "Assets\\Script\\VolverEscena.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T23:28:12.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SalirAplicacion.cs",
+              "DocumentMoniker": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\SalirAplicacion.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SalirAplicacion.cs",
+              "ToolTip": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\SalirAplicacion.cs",
+              "RelativeToolTip": "Assets\\Script\\SalirAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T23:07:37.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AsignadorBotonesJugadores.cs",
               "DocumentMoniker": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\AsignadorBotonesJugadores.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\AsignadorBotonesJugadores.cs",
               "ToolTip": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\AsignadorBotonesJugadores.cs",
               "RelativeToolTip": "Assets\\Script\\AsignadorBotonesJugadores.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAiwDQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAIBJwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T21:32:53.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T21:32:53.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "JugadoresConfigurados.cs",
               "DocumentMoniker": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\JugadoresConfigurados.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\JugadoresConfigurados.cs",
@@ -51,13 +113,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ConfiguradorJugadores.cs",
               "DocumentMoniker": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\ConfiguradorJugadores.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ConfiguradorJugadores.cs",
               "ToolTip": "E:\\proyectosUnityVuforia\\Repo-Proyectos\\REPO\\RepoDadoT.E.G\\Assets\\Script\\ConfiguradorJugadores.cs",
               "RelativeToolTip": "Assets\\Script\\ConfiguradorJugadores.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T20:51:42.059Z"
             }
