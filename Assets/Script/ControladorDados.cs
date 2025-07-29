@@ -33,6 +33,9 @@ public class ControladorDados : MonoBehaviour
     private Color colorActivo = new Color(0.6f, 0.6f, 0.6f); // gris claro
     private Color colorNormal = Color.white;
 
+    // Nueva referencia al script de sonido
+    private SonidoDados sonidoDados;
+
     void Start()
     {
         dadosAtacante = new List<GameObject>();
@@ -40,6 +43,9 @@ public class ControladorDados : MonoBehaviour
 
         ActualizarSeleccionAtacante(1);
         ActualizarSeleccionDefensor(1);
+
+        // Buscar automáticamente el controlador de sonido
+        sonidoDados = FindObjectOfType<SonidoDados>();
     }
 
     public void SeleccionarDadosAtacante(int cantidad)
@@ -59,6 +65,12 @@ public class ControladorDados : MonoBehaviour
 
         List<int> valoresAtacante = ObtenerValores(dadosAtacante);
         List<int> valoresDefensor = ObtenerValores(dadosDefensor);
+
+        // Lanzar los sonidos sin bloquear la ventana emergente
+        if (sonidoDados != null)
+        {
+            sonidoDados.ReproducirSecuenciaDados(cantidadAtacante, cantidadDefensor);
+        }
 
         ventanaResultado.MostrarVentana(valoresAtacante, valoresDefensor);
     }

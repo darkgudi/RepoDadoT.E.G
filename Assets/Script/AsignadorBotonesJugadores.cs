@@ -27,37 +27,31 @@ public class AsignadorBotonesJugadores : MonoBehaviour
             {
                 int index = i;
 
-                // Activar y configurar botón atacante
+                // Color original elegido
+                Color colorJugador = colores[index];
+
+                // Color visual del botón (gris claro si es negro)
+                Color colorBoton = (colorJugador == Color.black) ? new Color(0.7f, 0.7f, 0.7f) : colorJugador;
+
+                // Color real para el panel (gris claro si negro)
+                Color colorPanel = (colorJugador == Color.black) ? new Color(0.7f, 0.7f, 0.7f) : colorJugador;
+
+                // ACTIVAR Y CONFIGURAR botón atacante
                 botonesAtacante[i].SetActive(true);
                 botonesAtacante[i].GetComponentInChildren<TMP_Text>().text = nombres[i];
+                botonesAtacante[i].GetComponent<Image>().color = colorBoton;
                 botonesAtacante[i].GetComponent<Button>().onClick.AddListener(() =>
                 {
-                    // Dentro del AddListener para atacante
-                    {
-                        Color colorPanel = colores[index];
-                        if (colorPanel == Color.black)
-                        {
-                            colorPanel = new Color(0.8f, 0.8f, 0.8f); // Gris claro
-                        }
-                        panelAtacante.color = colorPanel;
-                    }
-
+                    panelAtacante.color = colorPanel;
                 });
 
-                // Activar y configurar botón defensor
+                // ACTIVAR Y CONFIGURAR botón defensor
                 botonesDefensor[i].SetActive(true);
                 botonesDefensor[i].GetComponentInChildren<TMP_Text>().text = nombres[i];
+                botonesDefensor[i].GetComponent<Image>().color = colorBoton;
                 botonesDefensor[i].GetComponent<Button>().onClick.AddListener(() =>
                 {
-                    {
-                        Color colorPanel = colores[index];
-                        if (colorPanel == Color.black)
-                        {
-                            colorPanel = new Color(0.8f, 0.8f, 0.8f);
-                        }
-                        panelDefensor.color = colorPanel;
-                    }
-
+                    panelDefensor.color = colorPanel;
                 });
             }
             else
